@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 class Row extends Component {
   render() {
     return (
-      <div class="row">
+      <div className="row">
         <br>
       </div>
     )

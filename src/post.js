@@ -6,12 +6,12 @@ import {render} from 'react-dom';
 class Post extends React.Component {
   render() {
     return (
-      <div class="m-entry">
-        <div class="m-h">
+      <div className="m-entry">
+        <div className="m-h">
           <h1>{this.props.title}
           </h1>
         </div>
-        <div class="m-p">
+        <div className="m-p">
           <p>{this.props.entry}
           </p>
         </div>
